@@ -48,12 +48,12 @@ Gist for granular scope and gaps.
 
 ## Layout
 - Engine (future): `src/` — editor, world, physics, scripting seams.
-- Tests (future): add a `tests/anti/` partition in the shared `../../tests` repo (mirrored per
+- Tests (future): add a `tests/anti/` partition in the shared `../tests` repo (mirrored per
   unit, the Test Tree Mirror Law); no test file lives inside this repo's source
   directories (the Test Segregation Law).
 
 ## Laws that govern work here
-- Constitution: the [canonical preferences Gist](https://gist.github.com/vex-graph/4132a6c45cb6d3797c3e8eff2e94035a); the compressed law list is `../../../metadata/gists/preferences/gist.md`. Lower tiers never include R6 headers or code.
+- Constitution: the [canonical preferences Gist](https://gist.github.com/vex-graph/4132a6c45cb6d3797c3e8eff2e94035a); the compressed law list is `../../metadata/gists/preferences/gist.md`. Lower tiers never include R6 headers or code.
 - Commits land in THIS repo root, one cohesive unit each; never push unless asked.
 - One public class per `.h`/`.c` pair, `(*ptr).field` (never `->`), dest-last
   params, `-Wall -Wextra -Werror`.
