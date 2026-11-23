@@ -1,13 +1,13 @@
-# anti — R6 creative superapp
+# anti, R6 creative superapp
 
 Future builds belong to [b](https://github.com/vex-graph/b). No runnable game
 target exists yet.
 
 ## Current State
 
-**Draft — unfinished, not finalized.** Every contract below is a design goal.
+**Draft, unfinished, not finalized.** Every contract below is a design goal.
 
-**Role:** R6 superapp — composes IDE, DAW, drawing and game/creative workflows
+**Role:** R6 superapp, composes IDE, DAW, drawing and game/creative workflows
 over R1–R5 public contracts. These are future workflows, not implemented products.
 R2 storage/computation, R3 drivers, R4 interfaces and R5 applications retain their
 own implementations and independent lifetimes under the host.
@@ -47,7 +47,7 @@ migration or implemented app integration is implied. See the ecosystem readiness
 Gist for granular scope and gaps.
 
 ## Layout
-- Engine (future): `src/` — editor, world, physics, scripting seams.
+- Engine (future): `src/`, editor, world, physics, scripting seams.
 - Tests (future): add a `tests/anti/` partition in the shared `../tests` repo (mirrored per
   unit, the Test Tree Mirror Law); no test file lives inside this repo's source
   directories (the Test Segregation Law).
